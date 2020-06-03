@@ -14,10 +14,10 @@ app.use(express.static(__dirname + '/public'));
 app.use('/', pintoresRouter);
 
 mongoose.Promise = global.Promise;
-const cadena = 'mongodb+srv://Chavira:MongoCluster12@chaviraabdi-lfl4e.mongodb.net/Pintores?retryWrites=true&w=majority'
+const cadena = 'mongodb+srv://Chavira:MongoCluster12@chaviraabdi-lfl4e.mongodb.net/pintores?retryWrites=true&w=majority'
 mongoose.connect(cadena,{useNewUrlParser: true, useUnifiedTopology: true})
 .then(()=>{
-    console.log('Conexion establecida con la DataBase');
+    console.log('Conexion establecida');
 })
 .catch(err=> console.log(err));
 
