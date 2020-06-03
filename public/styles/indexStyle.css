@@ -15,10 +15,10 @@ table{
     width: 95%;
 }
 td{
-    width: 14.2%;
+    width: auto;
 }
 img{
-    width: 250px;
+    width: 98%;
     height: auto;
     border-radius: 7px;
 }
