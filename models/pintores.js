@@ -15,7 +15,7 @@ let pintoresSchema = new Schema({
         require : [true, 'Requerimos el pais']
     },
     periodo:{
-        type : String,
+        type : Array,
         require : [true, 'Requerimos el periodo']
     },
     nacio:{
