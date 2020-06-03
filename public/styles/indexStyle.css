@@ -88,6 +88,7 @@ nav {
         background: rgba(0, 225, 255, 0);
         width: 90%;
         margin: 10px auto;
+        padding-bottom: 80px;
 			}
 				    
     #main-content header,
@@ -100,7 +101,6 @@ nav {
         color: white;
         text-align: center;
         padding: 2px;
-        margin-top: 140px;
             }
 	
 	#main-footer p {
