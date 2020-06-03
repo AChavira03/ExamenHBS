@@ -18,17 +18,14 @@ h1 {
     font-weight: 300;
     font-family:"sans-serif";
 }
-h2{
-	text-align:"center";
-	color: black;
-}
+
 img {
 	max-width: 95%;
-	height: 500px;
+    height: auto;
+    border-radius: 10px;
 }
 td{
-	width: 50%;
-	color: black;
+	width: auto;
 }
 
 
@@ -90,20 +87,19 @@ nav {
 	#main-content {
         background: rgba(0, 225, 255, 0);
         width: 90%;
-        max-width: 800px;
         margin: 10px auto;
 			}
 				    
     #main-content header,
         #main-content .content {
-        padding: 40px;
+        padding: 10px;
             }
 		
 	#main-footer {
         background: rgb(1, 42, 75);
         color: white;
         text-align: center;
-        padding: 30px;
+        padding: 2px;
         margin-top: 140px;
             }
 	
