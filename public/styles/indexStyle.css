@@ -3,42 +3,39 @@ body {
 	padding: 0;
 	font-family: Helvetica, Arial, sans-serif;
 	color: #666;
-	background:rgb(0, 16, 109);
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+	background: rgb(184, 238, 188); 
 	font-size: 1em;
 	line-height: 1.5em;
 	
-	padding-top: 80px; 
+	padding-top: 70px;
 }
 
 h1 {
-	font-size: 30em;
+	font-size: 10em;
 	line-height: 1.3em;
 	margin: 15px 0;
 	text-align: center;
     font-weight: 300;
     font-family:"sans-serif";
 }
-
-p {
-	margin: 0 0 1.5em 0;
-    font-size: 16px;
-    text-align: justify;
-	
+h2{
+	text-align:"center";
+	color: black;
 }
 img {
-	max-width: 90%;
-	height: auto;
+	max-width: 95%;
+	height: 500px;
+}
+td{
+	width: 50%;
+	color: black;
 }
 
 
 #main-header {
-	background:rgb(0, 114, 95);
+	background:rgb(2, 134, 167);
 	color: white;
-	height: 80px;
+	height: 60px;
 	
 	width: 100%; 
 	left: 0;
@@ -51,12 +48,12 @@ img {
 
 
 #logo-header {
-	float: left;
-	padding: 25px 0 0 20px;
+	float: center;
+	padding: 100px;
 	text-decoration: none;
 }
 	#logo-header:hover {
-		color: #00356E;
+		color: rgb(1, 42, 75);
 	}
 	
 	#logo-header .site-name {
@@ -75,47 +72,49 @@ nav {
 		list-style: none;
 		padding-right: 20px;
 	}
+	nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	}
+			
+	nav ul li a {
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+	}
+			
+	nav ul li a:hover {
+	background: #00356E;
+            }
 	
-		nav ul li {
-			display: inline-block;
-			line-height: 80px;
-		}
-			
-			nav ul li a {
-				display: block;
-				padding: 0 10px;
-				text-decoration: none;
+	#main-content {
+        background: rgba(0, 225, 255, 0);
+        width: 90%;
+        max-width: 800px;
+        margin: 10px auto;
 			}
-			
-				nav ul li a:hover {
-					background: #00356E;
-                }
-                #main-content {
-                    background: rgba(255, 255, 255, 0);
-                    width: 90%;
-                    max-width: 800px;
-                    margin: 20px auto;
-                    box-shadow: 0 0 20px rgba(0,0,0,.1);
-                }
-                
-                    #main-content header,
-                    #main-content .content {
-                        padding: 40px;
-                    }
-                    #main-footer {
-                        background: rgb(2, 82, 51);
-                        color: white;
-                        text-align: center;
-                        padding: 70px;
-                        margin-top: 140px;
-                    }
-                        #main-footer p {
-                            margin: 0;
-                        }
+				    
+    #main-content header,
+        #main-content .content {
+        padding: 40px;
+            }
+		
+	#main-footer {
+        background: rgb(1, 42, 75);
+        color: white;
+        text-align: center;
+        padding: 30px;
+        margin-top: 140px;
+            }
+	
+	#main-footer p {
+        margin: 0;
+            }
                         
-                        #main-footer a {
-                            color: white;
-						}
-						table a {
-                            color: rgb(0, 0, 0);
-                        }
+    #main-footer a {
+        color: white;
+			}
+		
+		table a {
+            color: rgb(0, 0, 0);
+            }
