@@ -13,7 +13,11 @@ pintoresController.list= (req, res)=>{
         if(err){
             Console.log('Error: ', err)
         }
-        res.render('../views/index')
+        res.render('../views/index', {
+            pintores : pintor,
+            titulo : "Listado de pintores",
+            year: new Date().getDate()
+        })
     })
 };
 
